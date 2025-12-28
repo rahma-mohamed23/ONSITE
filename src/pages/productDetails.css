@@ -1,0 +1,23 @@
+.product-details-page {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product-image-wrapper {
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product-image-wrapper:hover {
+    transform: scale(1.02);
+}
+
+.btn-primary {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
